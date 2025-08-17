@@ -1,102 +1,38 @@
-Deep Learning Projects
+🌟 Deep Learning Projects Repository
 
-🚀 Overview
+Welcome to my portfolio of deep learning projects! This repository showcases three practical projects that utilize Artificial Neural Networks (ANNs) for both regression and classification tasks.
 
-A collection of three end-to-end deep learning projects built using TensorFlow/Keras, solving real-world problems in classification and regression.
+1️⃣ California Housing Price Prediction
 
-🌟 Projects Overview
+Type: Regression
 
-Project
+Objective: Predict housing prices in California using features like median income, house age, and population.
 
-Type
+Dataset: California Housing dataset
 
-Dataset
+Model: Deep Neural Network (ANN) with ReLU activations
 
-Metrics
+Evaluation Metrics: MSE, MAE, RMSE, R²
 
-Output Highlights
-
-Customer Churn Prediction
-
-Classification
-
-Telco Dataset
-
-Accuracy, Loss
-
-✅ Test Accuracy: 79.46%
-
-Housing Price Prediction
-
-Regression
-
-Housing Dataset
-
-MSE, MAE, RMSE, R²
-
-✅ Test MSE: 0.2529, Test MAE: 0.3329, R²: 0.9993
-
-Employee Salary Prediction
-
-Regression
-
-Employee Dataset
-
-RMSE, MAE, MAPE, R²
-
-✅ RMSE: $647.85, MAE: $584.32, R²: 0.9993
-
-1️⃣ Customer Churn Prediction
-
-Objective: Predict whether a customer will churn based on demographics and service usage.
-
-Model Highlights:
-
-ANN with ReLU activations
-
-Dropout for regularization
-
-Sigmoid output for binary classification
-
-Performance:
-
-Best Epoch: 39 (Early stopping at 44)
-
-Training Accuracy: ~80%
-
-Validation Accuracy: ~81%
-
-Test Accuracy: 79.46% ✅
-
-2️⃣ Housing Price Prediction
-
-Objective: Predict house prices using numerical features.
-
-Model Highlights:
-
-Dense layers with ReLU activations
-
-Linear output layer for regression
-
-Performance:
+Test Results:
 
 Test MSE: 0.2529
 
 Test MAE: 0.3329
 
-R² Score: 0.9993 ✅
+2️⃣ Employee Salary Prediction
 
-3️⃣ Employee Salary Prediction
+Type: Regression
 
-Objective: Predict employee salaries based on experience, education, and other factors.
+Objective: Predict annual salaries based on years of experience.
 
-Model Highlights:
+Dataset: Employee Salary dataset
 
-Dense layers with ReLU activations
+Model: ANN with two hidden layers and ReLU activations
 
-Linear output layer
+Evaluation Metrics: RMSE, MAE, MAPE, R²
 
-Performance:
+Test Results:
 
 RMSE: $647.85
 
@@ -104,34 +40,28 @@ MAE: $584.32
 
 MAPE: 0.64%
 
-R² Score: 0.9993 ✅
+R²: 0.9993
 
-🛠 Tech Stack
+3️⃣ Telco Customer Churn Prediction
 
-Python 🐍
+Type: Classification
 
-TensorFlow / Keras 🤖
+Objective: Predict if a customer will churn based on usage patterns and account information.
 
-Scikit-learn 🔧
+Dataset: Telco Customer Churn dataset
 
-Pandas & NumPy 📊
+Model: ANN classifier with ReLU activations and sigmoid output layer
 
-Matplotlib / Seaborn 🎨
+Evaluation Metrics: Accuracy
 
-📈 Key Learnings
+Test Results:
 
-Built ANN models for both classification and regression tasks.
+Test Accuracy: 0.7946
 
-Applied early stopping, dropout, and feature scaling to improve performance.
+💡 Tips for Enhancement
 
-Learned to handle real-world datasets with preprocessing, encoding, and evaluation.
+Include training graphs to show model convergence.
 
-Achieved high accuracy and very low error metrics.
+Add model architecture diagrams to illustrate layers and activations.
 
-📂 Dataset Links
-
-Telco Customer Churn: Kaggle
-
-Housing Price Dataset: Kaggle
-
-Employee Salary Dataset: 
+Provide prediction visualizations to demonstrate model performance.
